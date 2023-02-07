@@ -1,0 +1,10 @@
+name: api-gesis-notebooks
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python==3.8
+    - matplotlib==3.6.2
+    - pandas==1.5.1
+    - pyparsing==3.0.9
+    - requests==2.28.1
