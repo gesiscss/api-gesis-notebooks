@@ -1,4 +1,4 @@
-# Overview over Gesis binder launches
+i# Overview over Gesis binder launches
 
 We provide an overview over the usage of notebooks.gesis.org from June 2019 to September 2020. We present the most popular binder repositories launched from notebooks.gesis.org as well as the number of repositories that have been launched via notebooks.gesis.org.
 
@@ -17,8 +17,8 @@ The project is intended for demonstration purposes and has the following materia
 
 ## Included Materials
 1. Analysis ([notebook](analysis_repos.ipynb))
-2. Data collection ([python-script](get_launches_api.py)
-3. Data preparation ([python-scripts](recode_popular_repos.py)
+2. Data collection ([python-script](get_launches_api.py))
+3. Data preparation ([python-scripts](recode_popular_repos.py))
 
 
 ## Online Analysis Environment
