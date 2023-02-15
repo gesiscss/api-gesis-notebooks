@@ -1,29 +1,23 @@
-#%matplotlib inline
-import matplotlib.pyplot as plt
-import datetime
-import math
 import pandas as pd
-import requests
+import datetime
 import time
 
 data = pd.read_csv("launches_data.csv")
 
-
 data['date']=pd.to_datetime(data['timestamp']).dt.date
-totals_per_day = data.groupby(["date"], as_index=False).size()
-
-
 
 repo_list = []
 
-for day, idx in zip(data['date'], totals_per_day.index):
+for day in data.date.unique():
     temp = data.loc[data['date'] == day].spec.unique()
-    # repo_list.append(repo_list)
     to_add = []
+    #print(f"elements in temp: {len(temp)}")
     for entry in temp:
         if not any(entry in i for i in repo_list):
             to_add.append(entry)
+            #print(f"elements in to_add: {len(to_add)}")
     repo_list.append(to_add)
+    #print(f"Finished day {day}")
 
 
 cum_repo_list = []
@@ -33,10 +27,3 @@ for i, idx in zip(repo_list, range(0, len(repo_list))):
         cum_repo_list.append(count)
     else: 
         cum_repo_list.append(cum_repo_list[idx - 1] + count)
-
-
-plt.plot(data.date.unique(), cum_repo_list)
-
-    
-
-    
