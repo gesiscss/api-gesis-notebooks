@@ -1,4 +1,4 @@
-# Overview over BESIS Notebooks usage
+# Overview over GESIS Notebooks usage
 
 We provide an overview over the usage of notebooks.gesis.org from June 2019 to September 2020. We present the most popular binder repositories launched from notebooks.gesis.org as well as the number of repositories that have been launched via notebooks.gesis.org.
 
