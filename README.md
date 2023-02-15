@@ -1,6 +1,6 @@
-# Overview over GESIS Notebooks usage
+# [GESIS Notebooks](http://notebooks.gesis.org/) usage Stats
 
-We provide an overview over the usage of notebooks.gesis.org from June 2019 to September 2020. We present the most popular binder repositories launched from notebooks.gesis.org as well as the number of repositories that have been launched via notebooks.gesis.org.
+We provide an overview of the usage of notebooks.gesis.org from June 2019 to September 2020. The project analyses the most popular binder repositories launched via notebooks.gesis.org and the number of launches. The analysis uses data from the GESIS Notebooks [API for launch events](https://notebooks.gesis.org/gallery/api/v1.0/).
 
 
 The project is intended for demonstration purposes and has the following materials included.
