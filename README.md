@@ -1,6 +1,6 @@
-i# Overview over Gesis binder launches
+# [GESIS Notebooks](http://notebooks.gesis.org/) usage Stats
 
-We provide an overview over the usage of notebooks.gesis.org from June 2019 to September 2020. We present the most popular binder repositories launched from notebooks.gesis.org as well as the number of repositories that have been launched via notebooks.gesis.org.
+We provide an overview of the usage of notebooks.gesis.org from June 2019 to September 2020. The project analyses the most popular binder repositories launched via notebooks.gesis.org and the number of launches. The analysis uses data from the GESIS Notebooks [API for launch events](https://notebooks.gesis.org/gallery/api/v1.0/).
 
 
 The project is intended for demonstration purposes and has the following materials included.
@@ -18,10 +18,7 @@ The project is intended for demonstration purposes and has the following materia
 The project can be executed online at [GESIS Notebooks](https://notebooks.gesis.org/)
 
 + To launch the analysis for one-time usage click  
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/gesiscss/api-gesis-notebooks/master?urlpath=lab/tree/analysis_repos.ipynb)
-
-+ To import the analysis persistently use  
-[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/services/binder/v2/gh/gesiscss/api-gesis-notebooks/master?urlpath=lab/tree/analysis_repos.ipynb)
+[![Binder](https://notebooks.gesis.org/binder/badge.svg)](https://notebooks.gesis.org/binder/v2/gh/gesiscss/api-gesis-notebooks/HEAD?urlpath=lab/tree/analysis_repos.ipynb)
 
 
 ## Terms of Use
@@ -34,3 +31,6 @@ Materials are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/
 
 ---
 
+Funded by the German Research Foundation (DFG).
+FKZ/project number:
+[324867496](https://gepris.dfg.de/gepris/projekt/324867496?context=projekt&task=showDetail&id=324867496&).
